@@ -5,16 +5,14 @@ body{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 0;
-    margin: 0;
-    gap: 0px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .logo{
-    padding: 10px;
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -47,9 +45,12 @@ body{
 .hero{
     display:flex;
     align-items: Center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #1f2937;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .leftSide{
@@ -57,6 +58,10 @@ body{
     flex-direction: column;
     justify-content: left;
     max-width: 400px;
+}
+
+img{
+    border-radius: 100px;
 }
 
 .mainText{
@@ -70,7 +75,7 @@ body{
     color: #e5e7eb;
 }
 
-button{
+.heroButton{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -80,6 +85,7 @@ button{
     background-color: #3882f6;
     border: 0px;
     border-radius: 5px;
+    width: 100px;
 }
 
 
@@ -102,8 +108,10 @@ button{
 .information{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .info{
@@ -122,6 +130,8 @@ button{
     align-items: center;
     background-color: #e5e7eb;
     padding: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .quote{
@@ -130,6 +140,52 @@ button{
     color: #1f2937;
 }
 
-.speaker{
+.callToAction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 15px;
+    color: #e5e7eb;
+}
 
+.ctaText{
+    display: flex;
+    flex-direction: column;
+}
+
+.ctaMainText{
+    font-size: x-large;
+    
+}
+
+.ctaSubText{
+    font-size: large;
+}
+
+.ctaButton{
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #1f2937;
+    color: white;
 }
