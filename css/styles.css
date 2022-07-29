@@ -26,9 +26,10 @@ body{
     align-items: center;
     justify-content: center;
     padding:10px;
+    gap: 15px;
 }
 
-ul{
+.headerLinks > ul{
     list-style-type: none;
     display: flex;
     margin: 0;
@@ -36,9 +37,47 @@ ul{
     gap: 8px;
 }
 
-a{
+.headerLinks > ul > li > a{
     text-decoration: none;
     color: #e5e7eb;
     text-align: center;
     justify-content: center;
+}
+
+.hero{
+    display:flex;
+    align-items: Center;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 400px;
+}
+
+.mainText{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.secondaryText{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 5px;
 }
