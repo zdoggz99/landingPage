@@ -101,7 +101,6 @@ button{
 
 .information{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -117,4 +116,20 @@ button{
     padding: 25px;
 }
 
+.quoteSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 150px;
+}
 
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.speaker{
+
+}
